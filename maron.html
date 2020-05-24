@@ -13,7 +13,7 @@
     <!-- Title  -->
     <title>Maron Resume</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/Favicon/favicon.png" />
+    <link rel="shortcut icon" href="img/favicon.png" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
@@ -23,22 +23,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="body">
+    <!------------------- Prelaoder ----------- -->
+    <div class="loadingio-spinner-ripple-opq7bgoks4" id="loading">
+        <div class="ldio-4sl1n4w5q0o">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <nav class="navbar navbar-custom fixed-top">
         <div class="continer-fluid">
-
             <!-- logo -->
             <a class="brand mr-auto" href="margon.html">Maron</a>
-
             <!-- toggler -->
-
             <button class="navbar-toggler menuBtn" type="button" data-toggle="collapse" data-target="#MyNav">
                 <span></span>
             </button>
         </div>
-            
-             <!-- Navbar Main -->
-
+        <!-- Navbar Main -->
         <div class="collapse navbar-collapse mainMenu" id="MyNav">
             <ul class="navbar-nav ">
                 <li class="nav-item">
@@ -62,9 +64,8 @@
             </ul>
         </div>
     </nav>
-     <!------------------------------------- End Navbar --------------------------------------------->
-     <!------------------------------------- start header --------------------------------------------->
-
+    <!------------------------------------- End Navbar --------------------------------------------->
+    <!------------------------------------- start header --------------------------------------------->
     <header class="header d-flex justify-content-center align-items-center" id="Home">
         <div class="container">
             <div class="caption text-left">
@@ -74,9 +75,8 @@
             </div>
         </div>
     </header>
-        <!------------------------------------- End Header --------------------------------------------->
-        <!------------------------------------- start About --------------------------------------------->
-
+    <!------------------------------------- End Header --------------------------------------------->
+    <!------------------------------------- start About --------------------------------------------->
     <section class="About section-padding" id="About">
         <div class="container">
             <h2>About Me</h2>
@@ -86,16 +86,15 @@
             </p>
         </div>
     </section>
-        <!------------------------------------- End About --------------------------------------------->
-         <!------------------------------------- start services --------------------------------------------->
- 
+    <!------------------------------------- End About --------------------------------------------->
+    <!------------------------------------- start services --------------------------------------------->
     <section class="services section-padding" id="Services">
         <div class="container">
             <h2>My Services</h2>
             <div class="services-boxs">
                 <div class="row">
                     <div class="box col-lg-4 col-md-6">
-                        <span><i class="fas fa-ruler-combined"></i></span>
+                        <span><i class="fas fa-ruler-combined style-color"></i></span>
                         <h3>Graphic Design</h3>
                         <p>Modern and mobile-ready website that will help of your marketing. Proin laoreet elementum
                             ligula, ac tincidunt lorem
@@ -103,7 +102,7 @@
                         </p>
                     </div>
                     <div class="box col-lg-4 col-md-6">
-                        <span><i class="fas fa-gamepad"></i></span>
+                        <span><i class="fas fa-gamepad style-color"></i></span>
                         <h3>Game Development</h3>
                         <p>Modern and mobile-ready website that will help of your marketing. Proin laoreet elementum
                             ligula, ac tincidunt
@@ -112,7 +111,7 @@
                         </p>
                     </div>
                     <div class="box col-lg-4 col-md-6">
-                        <span><i class="fas fa-chart-line"></i></span>
+                        <span><i class="fas fa-chart-line style-color"></i></span>
                         <h3>Analytics</h3>
                         <p>Modern and mobile-ready website that will help of your marketing. Proin laoreet elementum
                             ligula, ac tincidunt
@@ -120,8 +119,8 @@
                             accumsan ne
                         </p>
                     </div>
-                    <div class="box col-lg-4 col-md-6">
-                        <span><i class="fas fa-pen-nib"></i></span>
+                    <div class="box col-lg-4 col-md-6 mb-0">
+                        <span><i class="fas fa-pen-nib style-color"></i></span>
                         <h3>Graphic Design</h3>
                         <p>Modern and mobile-ready website that will help of your marketing. Proin laoreet elementum
                             ligula, ac tincidunt
@@ -129,8 +128,8 @@
                             accumsan ne
                         </p>
                     </div>
-                    <div class="box col-lg-4 col-md-6">
-                        <span><i class="fas fa-edit"></i></span>
+                    <div class="box col-lg-4 col-md-6 mb-0">
+                        <span><i class="fas fa-edit style-color"></i></span>
                         <h3>Video Edting</h3>
                         <p>Modern and mobile-ready website that will help of your marketing. Proin laoreet elementum
                             ligula, ac tincidunt
@@ -138,8 +137,8 @@
                             accumsan ne
                         </p>
                     </div>
-                    <div class="box col-lg-4 col-md-6">
-                        <span><i class="fas fa-laptop"></i></span>
+                    <div class="box col-lg-4 col-md-6 mb-0">
+                        <span><i class="fas fa-laptop style-color"></i></span>
                         <h3>Web Development</h3>
                         <p>Modern and mobile-ready website that will help of your marketing. Proin laoreet elementum
                             ligula, ac tincidunt
@@ -151,9 +150,8 @@
             </div>
         </div>
     </section>
-        <!------------------------------------- End Services --------------------------------------------->
-       <!------------------------------------- start portfolio --------------------------------------------->
-
+    <!------------------------------------- End Services --------------------------------------------->
+    <!------------------------------------- start portfolio --------------------------------------------->
     <section class="portfolio section-padding" id="portfolio">
         <div class="container text-center">
             <h2>MyWorks</h2>
@@ -183,22 +181,21 @@
                     <div class="box col-md-4 col-sm-6  items brand">
                         <img src="img/portfolio6.jpg" alt="portfolio">
                     </div>
-                    <div class="box col-md-4 col-sm-6  items design">
+                    <div class="box col-md-4 col-sm-6 mb-0  items design">
                         <img src="img/portfolio7.jpg" alt="portfolio">
                     </div>
-                    <div class="box col-md-4 col-sm-6  items photography">
+                    <div class="box col-md-4 col-sm-6 mb-0 items photography">
                         <img src="img/portfolio8.jpg" alt="portfolio">
                     </div>
-                    <div class="box col-md-4 col-sm-6  items photography">
+                    <div class="box col-md-4 col-sm-6  mb-0 items photography">
                         <img src="img/portfolio9.jpg" alt="portfolio">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-        <!------------------------------------- End Portfolio --------------------------------------------->
-        <!------------------------------------- start skills --------------------------------------------->
- 
+    <!------------------------------------- End Portfolio --------------------------------------------->
+    <!------------------------------------- start skills --------------------------------------------->
     <section class="Skills section-padding" id="Skills">
         <div class="container text-center">
             <h2>My Skills</h2>
@@ -228,15 +225,15 @@
                 <div class="skills-right col-md-6 col-sm-12">
                     <div class="row">
                         <div id="skill-circule1" class="style col-sm-6">
-                            <p>WEb development</p>
+                            <p>Web development</p>
                         </div>
                         <div id="skill-circule2" class="style col-sm-6">
-                            <p>WEb design</p>
+                            <p>Web design</p>
                         </div>
-                        <div id="skill-circule3" class="style col-sm-6">
+                        <div id="skill-circule3" class="style col-sm-6 mb-0">
                             <p>Team Work</p>
                         </div>
-                        <div id="skill-circule4" class="style col-sm-6">
+                        <div id="skill-circule4" class="style col-sm-6 mb-0">
                             <p>Craetivey</p>
                         </div>
                     </div>
@@ -244,9 +241,8 @@
             </div>
         </div>
     </section>
-        <!------------------------------------- End Skills --------------------------------------------->
-        <!------------------------------------- Start Expertises --------------------------------------------->
-
+    <!------------------------------------- End Skills --------------------------------------------->
+    <!------------------------------------- Start Expertises --------------------------------------------->
     <section class="Expertises section-padding">
         <div class="container text-center">
             <h2>My Expertises</h2>
@@ -263,7 +259,7 @@
                         <span>2015 - present Facebook</span>
                         <p>Collaborate with creative and development teams on the execution of ideas.</p>
                     </div>
-                    <div class="box">
+                    <div class="box mb-0">
                         <h3>Front End Developer</h3>
                         <span>2015 - present Facebook</span>
                         <p>Collaborate with creative and development teams on the execution of ideas.</p>
@@ -281,7 +277,7 @@
                         <span>2015 - present Facebook</span>
                         <p>Collaborate with creative and development teams on the execution of ideas.</p>
                     </div>
-                    <div class="box">
+                    <div class="box mb-0">
                         <h3>Front End Developer</h3>
                         <span>2015 - present Facebook</span>
                         <p>Collaborate with creative and development teams on the execution of ideas.</p>
@@ -290,14 +286,13 @@
             </div>
         </div>
     </section>
-        <!------------------------------------- End Expertises --------------------------------------------->
-        <!------------------------------------- start Testimonials --------------------------------------------->
-
+    <!------------------------------------- End Expertises --------------------------------------------->
+    <!------------------------------------- start Testimonials --------------------------------------------->
     <section class="Testimonials section-padding">
         <div class="container text-center">
             <h2>Testimonials</h2>
             <div class="owl-carousel text-left">
-                <div class="item">
+                <div class="box  item">
                     <div class="client">
                         <img src="img/client1.jpg" alt="client">
                     </div>
@@ -345,9 +340,8 @@
             </div>
         </div>
     </section>
-        <!------------------------------------- End Testimonials --------------------------------------------->
-        <!------------------------------------- Start Contact --------------------------------------------->
-
+    <!------------------------------------- End Testimonials --------------------------------------------->
+    <!------------------------------------- Start Contact --------------------------------------------->
     <section class="contact section-padding" id="Contact">
         <div class="container text-center">
             <h2>Contact Me</h2>
@@ -407,23 +401,55 @@
                                 </div>
                             </div>
                         </form>
-                        <span>All right reserved oversoft @ 2020</span>
                     </div>
                     <div class="map-box col-lg-6 col-sm-12">
                         <div id="ieatmaps"></div>
-                        <div class="social">
-                            <span><i class="fab fa-facebook-f"></i></span>
-                            <span><i class="fab fa-twitter"></i></span>
-                            <span><i class="fab fa-instagram"></i></span>
-                            <span><i class="fab fa-linkedin"></i></span>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-        <!------------------------------------- End Contact --------------------------------------------->
-
+    <!------------------------------------- End Contact --------------------------------------------->
+    <!------------------------------------- start Footer --------------------------------------------->
+    <footer>
+        <h2>All right reserved oversoft @ 2020</h2>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <!------------------------------------- End Footer --------------------------------------------->
+    <!------------------------------------- start Options --------------------------------------------->
+    <div class="options-button">
+        <span><i class="fas fa-cog"></i></span>
+    </div>
+    <div class="options">
+        <h3>Colors</h3>
+        <ul>
+            <li>
+                <a title="green" class="one">
+                    <div class="green"></div>
+                </a>
+            </li>
+            <li>
+                <a title="purple" class="two">
+                    <div class="purple"></div>
+                </a>
+            </li>
+            <li>
+                <a title="Blue" class="three">
+                    <div class="Blue"></div>
+                </a>
+            </li>
+            <li>
+                <a title="red" class="four">
+                    <div class="Red"></div>
+                </a>
+            </li>
+        </ul>
+    </div>
     <!-- js libraries-->
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.min.js"></script>
@@ -435,10 +461,10 @@
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/jquery.lineProgressbar.js"></script>
     <script src="js/circle-progress.min.js"></script>
-    <!--Css library-->
-    <script src="js/bootstrap.min.js"></script>
     <!-- font-icon-->
     <script src="js/all.min.js"></script>
+    <!--Css library-->
+    <script src="js/bootstrap.min.js"></script>
     <!--main-script-->
     <script src="js/scripts.js"></script>
 </body>

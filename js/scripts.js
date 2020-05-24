@@ -67,7 +67,7 @@ $(window).on("load",function (){
    
 
     // Preloader
-    $(".loading").fadeOut(500);
+    $("#loading").fadeOut(1000);
 
 
   
@@ -198,7 +198,7 @@ $(document).ready(function() {
         if ($(this).hasClass('act')) {
             $('.mainMenu').addClass('act');
             $('.navbar').css('padding' , '0px');
-            $('.navbar .brand').css({'position': 'fixed','top': '20px','left':'60px','zIndex':'200'})
+            $('.navbar .brand').css({'position': 'fixed','top': '20px','zIndex':'200'})
         }
         else {
             
@@ -239,4 +239,70 @@ $(document).ready(function() {
     });
   
 
+
+    // --------------------------------------------------options
+
+
+    $('.options-button').on('click',function(){
+        $('.options').toggleClass('state')
+        $(this).toggleClass('BtnState')
+        
+    
+    })
+
+    $(".one").on('click', function () {
+
+        $(".style-color").css('color','#469F4A')
+        $(".Expertises .box").css('borderColor', '#469F4A')
+        $(".Expertises .box span").css('backgroundColor', '#469F4A')
+        $(".Testimonials .box,.client").css('borderColor','#469F4A')
+        $(".active span").css('backgroundColor','#469F4A')
+        $(".child-box,.child-box span").css('borderColor','#469F4A')
+        $(".send-button button").css('backgroundColor', '#469F4A')
+        $(".social a").css('backgroundColor', '#469F4A')
+        $(".options-button").css('backgroundColor', '#469F4A')
+    });
+
+    $(".two").on('click', function () {
+
+        $(".style-color").css('color', '#9A6FE6')
+        $(".Expertises .box").css('borderColor', '#9A6FE6')
+        $(".Expertises .box span").css('backgroundColor', '#9A6FE6')
+        $(".Testimonials .box,.client").css('borderColor', '#9A6FE6')
+        $(".active span").css('backgroundColor', '#9A6FE6')
+        $(".child-box,.child-box span").css('borderColor', '#9A6FE6')
+        $(".send-button button").css('backgroundColor', '#9A6FE6')
+        $(".social a").css('backgroundColor', '#9A6FE6')
+        $(".options-button").css('backgroundColor', '#9A6FE6')
+
+    });
+
+    $(".three").on('click', function () {
+
+        $(".style-color").css('color', '#007CED')
+        $(".Expertises .box").css('borderColor', '#007CED')
+        $(".Expertises .box span").css('backgroundColor', '#007CED')
+        $(".Testimonials .box,.client").css('borderColor', '#007CED')
+        $(".active span").css('backgroundColor', '#007CED')
+        $(".child-box,.child-box span").css('borderColor', '#007CED')
+        $(".send-button button").css('backgroundColor', '#007CED')
+        $(".social a").css('backgroundColor', '#007CED')
+        $(".options-button").css('backgroundColor', '#007CED')
+    });
+
+    $(".four").on('click', function () {
+
+        $(".style-color").css('color', '#FF0000')
+        $(".Expertises .box").css('borderColor', '#FF0000')
+        $(".Expertises .box span").css('backgroundColor', '#FF0000')
+        $(".Testimonials .box,.client").css('borderColor', '#FF0000')
+        $(".active span").css('backgroundColor', '#FF0000')
+        $(".child-box,.child-box span").css('borderColor', '#FF0000')
+        $(".send-button button").css('backgroundColor', '#FF0000')
+        $(".social a").css('backgroundColor', '#FF0000')
+        $(".options-button").css('backgroundColor', '#FF0000')
+    });
+
+   
+ 
 });
